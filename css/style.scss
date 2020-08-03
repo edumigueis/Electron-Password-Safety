@@ -113,17 +113,17 @@
         align-items: center;
         justify-content: center;
         .meter{
-            width: 0;
-            height: 8px;
+            width: 100%;
+            height: 10px;
             position: relative;
             overflow: hidden;
             border-radius: 8px;
             .gradient{
                 position: absolute;
-                height: 8px;
+                height: 10px;
                 width: 100%;
                 min-width: 200px;
-                background: linear-gradient(90deg, rgb(238, 53, 53), orange, rgb(247, 247, 36), rgb(6, 204, 6));
+                background: red;
             }
         }
         

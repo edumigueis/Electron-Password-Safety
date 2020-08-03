@@ -145,8 +145,8 @@
 }
 
 .bottom-controls .meter-wrapper .meter {
-  width: 0;
-  height: 8px;
+  width: 100%;
+  height: 10px;
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -154,11 +154,10 @@
 
 .bottom-controls .meter-wrapper .meter .gradient {
   position: absolute;
-  height: 8px;
+  height: 10px;
   width: 100%;
   min-width: 200px;
-  background: -webkit-gradient(linear, left top, right top, from(#ee3535), color-stop(orange), color-stop(#f7f724), to(#06cc06));
-  background: linear-gradient(90deg, #ee3535, orange, #f7f724, #06cc06);
+  background: red;
 }
 
 .bottom-controls button {
