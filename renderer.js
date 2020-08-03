@@ -4,3 +4,11 @@
 // `nodeIntegration` is turned off. Use `preload.js` to
 // selectively enable features needed in the rendering
 // process.
+
+var script = document.createElement('script');
+document.body.append(script);
+script.src = "./js/password-generator.js";
+
+var script2 = document.createElement('script');
+document.body.append(script2);
+script2.src = "./js/password-strength.js";
