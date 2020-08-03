@@ -19,6 +19,10 @@
         margin: 50px auto;
         height: 600px;
         z-index: 2;
+
+        @media screen and (max-width: 800px) {
+            height: 500px;
+        }
     }
 
     .blob-1 {
@@ -29,6 +33,7 @@
         width: 300px;
         height: 600px;
         overflow: hidden;
+
         svg {
             width: 600px;
         }
@@ -60,6 +65,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @media screen and (max-width: 800px) {
+                display: none;
+            }
         }
 
         img {
@@ -87,7 +96,8 @@
             color: #616161;
             font-weight: 500;
         }
-        .hero-input{
+
+        .hero-input {
             margin-top: 10px;
             width: calc(100% - 40px);
             padding: 7px 15px;
@@ -102,33 +112,38 @@
         }
     }
 }
-.bottom-controls{
+
+.bottom-controls {
     display: flex;
     width: 100%;
     margin-top: 15px;
-    .meter-wrapper{
-        width: calc(100% - 198px);
+
+    .meter-wrapper {
+        width: 100px;
         margin-left: 15px;
         display: flex;
         align-items: center;
         justify-content: center;
-        .meter{
+
+        .meter {
             width: 100%;
             height: 10px;
             position: relative;
             overflow: hidden;
             border-radius: 8px;
-            .gradient{
+
+            .gradient {
                 position: absolute;
                 height: 10px;
                 width: 100%;
-                min-width: 200px;
-                background: red;
+                min-width: 100px;
+                background: transparent;
             }
         }
-        
+
     }
-    button{
+
+    button {
         padding: 6px 12px;
         border-radius: 15px;
         outline: none;
@@ -138,14 +153,17 @@
         pointer-events: all;
     }
 }
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     overflow-x: hidden;
     z-index: -2;
-    
+
 }
-body, html{
+
+body,
+html {
     pointer-events: none;
 }
