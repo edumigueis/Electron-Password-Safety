@@ -1,12 +1,40 @@
 let score = 0;
-
-alert(hasRepetitions("aa"))
+let sequences = [
+  "123",
+  "234",
+  "345",
+  "567",
+  "456",
+  "789",
+  "012",
+  "abc",
+  "zxcv",
+  "asdf",
+  "qwer",
+  "password",
+  "pass",
+  "def",
+  "bcd",
+  "xyz",
+  "012"
+];
 
 function hasRepetitions(pass) {
-        var patt = /^([a-z])\1+$/;
-        var result = patt.test(pass);
-        return result;
+  var patt = /^([a-zA-Z1-9])\1+$/;
+  var result = patt.test(pass);
+  var patt2 = /^(.+)\1+$/.test(pass);
+
+  if (result == false && patt2 == false) return false;
+  else return true;
 }
+
+function hasSequence(pass) {
+  for (var i = 0; i < sequences.length; i++) {
+    if (pass.includes(sequences[i])) return true;
+  }
+  return false;
+}
+
 function isLongEgnough(password) {
   if (password.length < 9) {
     return false;
