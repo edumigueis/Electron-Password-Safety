@@ -61,14 +61,16 @@ function hasCharacters(password) {
 
 function checkPassword(pass) {
   score = 0;
-  if (isLongEgnough(pass)) {
-    score = score + 20;
+  if (isLongEgnough(pass) && !hasSequence(pass) && !hasRepetitions(pass)) {
+    score = 59;
+    hasCharacters(pass);
+    return;
   }
   if (!hasSequence(pass)) {
     score = score + 20;
-  } else {
+  }
+  if(hasSequence(pass) && !isLongEgnough(pass)){
     score = score - 20;
-    return;
   }
   if (!hasRepetitions(pass)) {
     score = score + 20;
