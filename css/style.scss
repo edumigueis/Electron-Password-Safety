@@ -166,3 +166,22 @@ html {
         pointer-events: all;
     }
 }
+.bottom-bar{
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    right: 60px;
+    display: flex;
+    width: calc(100% - 120px);
+    align-items: center;
+    justify-content: center;
+    .creator{
+        margin-left: auto;
+        a{
+            pointer-events: all;
+            text-decoration: none;
+            color: #9b3ce9;
+            font-weight: bold;
+        }
+    }
+}
