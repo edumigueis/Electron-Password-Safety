@@ -7,8 +7,8 @@
 
 [![INSERT YOUR GRAPHIC HERE](header.png)]()
 
-- Most people will glance at your `README`, *maybe* star it, and leave
-- Ergo, people should understand instantly what your project is about based on your repo
+- This app can measure password strength and generate passwords it finds safe.
+- Made with javascript, electron, html and css.
 ---
 
 ## Installation
