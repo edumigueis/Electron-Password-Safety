@@ -1,5 +1,3 @@
-# Electron-Password-Safety
-
 
 # Electron-Password-Safety
 
