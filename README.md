@@ -5,7 +5,7 @@
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-[![INSERT YOUR GRAPHIC HERE](header.png)]()
+[![header.png](header.png)]()
 
 - This app can measure password strength and generate passwords it finds safe.
 - Made with javascript, electron, html and css.
