@@ -51,32 +51,22 @@ let generateProject = project => {
 
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
+- To run this project you need node and npm installed in your machine. Check setup section of README to get started.
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+- Clone this repo to your local machine using `https://github.com/edumigueis/Electron-Password-Safety.git`
 
 ### Setup
 
-- If you want more syntax highlighting, format your code like this:
+- In order to use this project, you have to install the dependencies stated in the package.json file:
 
-> update and install this package first
-
-```shell
-$ brew update
-$ brew install fvcproductions
-```
-
-> now install npm and bower packages
+> install this project or clone it. Then, install the dependencies and load the app:
 
 ```shell
-$ npm install
-$ bower install
+npm install
+npm start
 ```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
 
 ---
 
@@ -90,15 +80,15 @@ $ bower install
     - 🍴 Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
+    - 👯 Clone this repo to your local machine using `https://github.com/edumigueis/Electron-Password-Safety.git`
 
 ### Step 2
 
-- **HACK AWAY!** 🔨🔨🔨
+- **Go coding yey!** 🔨🔨🔨
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/edumigueis/Electron-Password-Safety/compare" target="_blank">`https://github.com/edumigueis/Electron-Password-Safety/compare`</a>.
 
 ---
 
